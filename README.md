@@ -1,7 +1,3 @@
-TEST
-
-test
-test
-test
+# aglarRsync
 
 A port to Swift of legacy arRsync frontend for macOS
