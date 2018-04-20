@@ -33,17 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C33A9262089711100F671D3 /* aglarRsync4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aglarRsync4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C33A9262089711100F671D3 /* aglarRsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aglarRsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C33A9292089711100F671D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C33A92B2089711100F671D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C33A92D2089711200F671D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C33A9302089711200F671D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C33A9322089711200F671D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C33A9332089711200F671D3 /* aglarRsync4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aglarRsync4.entitlements; sourceTree = "<group>"; };
-		1C33A9382089711200F671D3 /* aglarRsync4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aglarRsync4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C33A9382089711200F671D3 /* aglarRsyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aglarRsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C33A93C2089711200F671D3 /* aglarRsync4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aglarRsync4Tests.swift; sourceTree = "<group>"; };
 		1C33A93E2089711200F671D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C33A9432089711200F671D3 /* aglarRsync4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aglarRsync4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C33A9432089711200F671D3 /* aglarRsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aglarRsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C33A9472089711200F671D3 /* aglarRsync4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aglarRsync4UITests.swift; sourceTree = "<group>"; };
 		1C33A9492089711200F671D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,9 +86,9 @@
 		1C33A9272089711100F671D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C33A9262089711100F671D3 /* aglarRsync4.app */,
-				1C33A9382089711200F671D3 /* aglarRsync4Tests.xctest */,
-				1C33A9432089711200F671D3 /* aglarRsync4UITests.xctest */,
+				1C33A9262089711100F671D3 /* aglarRsync.app */,
+				1C33A9382089711200F671D3 /* aglarRsyncTests.xctest */,
+				1C33A9432089711200F671D3 /* aglarRsyncUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C33A9252089711100F671D3 /* aglarRsync4 */ = {
+		1C33A9252089711100F671D3 /* aglarRsync */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C33A94C2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4" */;
+			buildConfigurationList = 1C33A94C2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync" */;
 			buildPhases = (
 				1C33A9222089711100F671D3 /* Sources */,
 				1C33A9232089711100F671D3 /* Frameworks */,
@@ -139,14 +139,14 @@
 			);
 			dependencies = (
 			);
-			name = aglarRsync4;
+			name = aglarRsync;
 			productName = aglarRsync4;
-			productReference = 1C33A9262089711100F671D3 /* aglarRsync4.app */;
+			productReference = 1C33A9262089711100F671D3 /* aglarRsync.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1C33A9372089711200F671D3 /* aglarRsync4Tests */ = {
+		1C33A9372089711200F671D3 /* aglarRsyncTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C33A94F2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4Tests" */;
+			buildConfigurationList = 1C33A94F2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsyncTests" */;
 			buildPhases = (
 				1C33A9342089711200F671D3 /* Sources */,
 				1C33A9352089711200F671D3 /* Frameworks */,
@@ -157,14 +157,14 @@
 			dependencies = (
 				1C33A93A2089711200F671D3 /* PBXTargetDependency */,
 			);
-			name = aglarRsync4Tests;
+			name = aglarRsyncTests;
 			productName = aglarRsync4Tests;
-			productReference = 1C33A9382089711200F671D3 /* aglarRsync4Tests.xctest */;
+			productReference = 1C33A9382089711200F671D3 /* aglarRsyncTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1C33A9422089711200F671D3 /* aglarRsync4UITests */ = {
+		1C33A9422089711200F671D3 /* aglarRsyncUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C33A9522089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4UITests" */;
+			buildConfigurationList = 1C33A9522089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsyncUITests" */;
 			buildPhases = (
 				1C33A93F2089711200F671D3 /* Sources */,
 				1C33A9402089711200F671D3 /* Frameworks */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				1C33A9452089711200F671D3 /* PBXTargetDependency */,
 			);
-			name = aglarRsync4UITests;
+			name = aglarRsyncUITests;
 			productName = aglarRsync4UITests;
-			productReference = 1C33A9432089711200F671D3 /* aglarRsync4UITests.xctest */;
+			productReference = 1C33A9432089711200F671D3 /* aglarRsyncUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C33A9212089711100F671D3 /* Build configuration list for PBXProject "aglarRsync4" */;
+			buildConfigurationList = 1C33A9212089711100F671D3 /* Build configuration list for PBXProject "aglarRsync" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,9 +216,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C33A9252089711100F671D3 /* aglarRsync4 */,
-				1C33A9372089711200F671D3 /* aglarRsync4Tests */,
-				1C33A9422089711200F671D3 /* aglarRsync4UITests */,
+				1C33A9252089711100F671D3 /* aglarRsync */,
+				1C33A9372089711200F671D3 /* aglarRsyncTests */,
+				1C33A9422089711200F671D3 /* aglarRsyncUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,12 +280,12 @@
 /* Begin PBXTargetDependency section */
 		1C33A93A2089711200F671D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C33A9252089711100F671D3 /* aglarRsync4 */;
+			target = 1C33A9252089711100F671D3 /* aglarRsync */;
 			targetProxy = 1C33A9392089711200F671D3 /* PBXContainerItemProxy */;
 		};
 		1C33A9452089711200F671D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C33A9252089711100F671D3 /* aglarRsync4 */;
+			target = 1C33A9252089711100F671D3 /* aglarRsync */;
 			targetProxy = 1C33A9442089711200F671D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluastelo.aglarRsync4Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aglarRsync4.app/Contents/MacOS/aglarRsync4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aglarRsync.app/Contents/MacOS/aglarRsync";
 			};
 			name = Debug;
 		};
@@ -487,7 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bluastelo.aglarRsync4Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aglarRsync4.app/Contents/MacOS/aglarRsync4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aglarRsync.app/Contents/MacOS/aglarRsync";
 			};
 			name = Release;
 		};
@@ -532,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C33A9212089711100F671D3 /* Build configuration list for PBXProject "aglarRsync4" */ = {
+		1C33A9212089711100F671D3 /* Build configuration list for PBXProject "aglarRsync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C33A94A2089711200F671D3 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C33A94C2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4" */ = {
+		1C33A94C2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C33A94D2089711200F671D3 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C33A94F2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4Tests" */ = {
+		1C33A94F2089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsyncTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C33A9502089711200F671D3 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C33A9522089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsync4UITests" */ = {
+		1C33A9522089711200F671D3 /* Build configuration list for PBXNativeTarget "aglarRsyncUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C33A9532089711200F671D3 /* Debug */,
