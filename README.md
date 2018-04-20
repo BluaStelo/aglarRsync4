@@ -13,3 +13,7 @@ Now macOS is evolving, I get warnings app needs to be updated. But it seems orig
 That's what I'll TRY to do.
 
 Aglar
+
+# Status of the project
+
+NOT ready to use
